@@ -1,52 +1,4 @@
-﻿//int num1 = 8;
-//int num2 = 16;
-//if (num1 > num2)
-//{
-// Console.WriteLine($"The number {num1} is greater then {num2}");
-//}
-//else
-//{
-// Console.WriteLine($"The number {num2} is greater then {num1}");
-//}
-
-//using System.ComponentModel.Design;
-
-//Console.Write("Enter the number: ");
-//int number = Convert.ToInt32(Console.ReadLine());
-//if (number > 0)
-//{
-   // Console.WriteLine($"Positive number {number}");
-//}
-//else if (number < 0)
-//{
-    //Console.WriteLine($"Negative number {number}");
-//}
-//else
-//{
-    //Console.WriteLine($"Zero {number}");
-//}
-
-//Console.Write("Enter your age:");
-//int age = Convert.ToInt32(Console.ReadLine());
-
-//if (age < 13)
-//{
-    //Console.WriteLine("Child");
-//}
-//else if (age == 13 & age < 19)
-//{
-    //Console.WriteLine("Teenager");
-//}
-//else if (age == 20 &  age < 59)
-//{
-    //Console.WriteLine("Adult");
-//}
-//else
-//{
-    //Console.WriteLine("Above");
-//}
-
-//EXERCISE NUMBER 1
+﻿Console.WriteLine("EXERCISE NUMBER 1");
 Console.Write("Enter first number: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter second number: ");
@@ -64,7 +16,8 @@ else
     Console.WriteLine("They equally");
 }
 
-//EXERCISE NUMBER 2
+
+Console.WriteLine("EXERCISE NUMBER 2");
 Console.Write("Enter number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 if (num > 5 & num < 10)
@@ -77,7 +30,8 @@ else
 }
 
 
-//EXERCISE NUMBER 3
+
+Console.WriteLine("EXERCISE NUMBER 3");
 Console.Write("Enter number: ");
 int num3 = Convert.ToInt32(Console.ReadLine());
 if (num3 == 5 | num3 == 10)
@@ -89,7 +43,8 @@ else
     Console.WriteLine("Unknown number");
 }
 
-//EXERCISE NUMBER 4 AND 5
+
+Console.WriteLine("EXERCISE NUMBER 4 AND 5");
 Console.Write("Enter the deposit amount: ");
 double D = Convert.ToDouble(Console.ReadLine());
 double result;
@@ -109,7 +64,8 @@ else if (D > 200)
     Console.WriteLine($"The deposit amount 10% .The summa with deposit {result}");
 }
 
-//EXERCISE NUMBER 6 AND 7
+
+Console.WriteLine("EXERCISE NUMBER 6 AND 7");
 Console.Write("Enter operation number: ");
 int opetation = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter first number: ");
